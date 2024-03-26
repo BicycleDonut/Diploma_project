@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     
     func startLocationManager(){
         locationManager.requestWhenInUseAuthorization()
-        Di
+        
             
         if CLLocationManager.locationServicesEnabled(){
             locationManager.delegate = self
